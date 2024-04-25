@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         //Loading data from a file
-        List<IrisData> dataList = FileLoader.loadData("res/iris_test 3.txt");
+        List<IrisData> dataList = FileLoader.loadData("untitled/res/iris_training 3.txt");
 
 
         //User enters desired number of clusters
