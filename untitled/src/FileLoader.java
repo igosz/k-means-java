@@ -17,7 +17,7 @@ public class FileLoader {
             for (int i = 0; i < parts.length - 1; i++) {
                 attributesVector.add(Double.parseDouble(parts[i].replaceAll(",",".")));
             }
-            data.add(new IrisData(attributesVector));
+            data.add(new IrisData(attributesVector, parts[parts.length - 1]));
         }
         br.close();
         return data;
